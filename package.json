@@ -1,0 +1,23 @@
+{
+  "name": "image-differ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "diff": "pixelmatch one.png two.png output.png 0.1",
+    "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixelmatch": "^4.0.2",
+    "pngjs": "^3.3.1",
+    "puppeteer": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.3"
+  }
+}
