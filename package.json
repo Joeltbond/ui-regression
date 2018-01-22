@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "inquirer": "^5.0.0",
     "pixelmatch": "^4.0.2",
     "pngjs": "^3.3.1",
     "puppeteer": "^1.0.0"
